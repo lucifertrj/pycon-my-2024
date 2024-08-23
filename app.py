@@ -1,6 +1,8 @@
 # pip install llama-index-embeddings-fastembed beyondllm streamlit
 
 import streamlit as st
+import nltk
+nltk.download('punkt')
 
 from beyondllm.source import fit
 from beyondllm.embeddings import FastEmbedEmbeddings
