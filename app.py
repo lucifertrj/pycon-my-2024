@@ -21,7 +21,7 @@ def initialize_retriever_and_llm():
         chunk_overlap = 0 #optional
     )
     st.spinner("Loading the embedding model...")
-    embed_model = FastEmbedEmbeddings(model_name="thenlper/gte-large")
+    embed_model = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
     
     st.spinner("Indexing your document...")
     retriever = auto_retriever(
