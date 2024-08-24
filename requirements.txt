@@ -1,3 +1,3 @@
 beyondllm
 llama-index-embeddings-fastembed
-streamlit==1.4.0
+streamlit
